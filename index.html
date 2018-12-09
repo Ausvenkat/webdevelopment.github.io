@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {background-color: ghostwhite;}
+h1   {color: palevioletred;}
+h5   {color: saddlebrown}
+h3   {color: brown}    
+h2   {color: cornflowerblue}
+    .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+</style>
+<body>
+    <h1><center>2019 PARLIAMENT ELECTION SURVEY</center></h1>
+
+<picture>
+  <source media="(min-width: 650px)" srcset="aus.jpg">
+    <center><img src="aus.jpg" alt="Flowers" style="width:500;"></center>
+</picture>
+    
+<h1>ELECTION POLLS</h1>
+    <p>An opinion poll has predicted a decline in seats for the ruling NDA and the BJP and an increase for the UPA and the Congress if general elections were to be held today.According to the India Today’s Mood of the Nation (MOTN) July 2018 poll, the NDA will be back in power with 281 seats, nine seats ahead of the half-way mark in the 543-member Lok Sabha. However, but the BJP will lose its majority and slide down to 245 seats. The UPA will be far behind with 122 seats and the Congress will increase its tally to 83 seats.The BJP, according to the poll, will come down from the 282 seats it had won in the 2014 Lok Sabha elections but will increase its vote share from 31.34 per cent to 36 per cent.The Congress, on the other hand, will increase its seat tally from the 44 it won in 2014 to 83 seats, while its vote share will go up from 19.52 to 31 per cent.
+</p>
+<center><div id="piechart"></div>
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+<script type="text/javascript">
+// Load google charts
+google.charts.load('current', {'packages':['corechart']});
+google.charts.setOnLoadCallback(drawChart);
+
+// Draw the chart and set the chart values
+function drawChart() {
+  var data = google.visualization.arrayToDataTable([
+  ['PARTIES', 'VOTES'],
+  ['BJP', 245],
+  ['CONGRESS', 83],
+  ['OTHERS', 140],
+]);
+
+  // Optional; add a title and set the width and height of the chart
+  var options = {'title':'Seats/Vote Share', 'width':550, 'height':400};
+
+  // Display the chart inside the <div> element with id="piechart"
+  var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+  chart.draw(data, options);
+}
+    </script></center>
+    <h1>TAMILNADU</h1>
+    <p>People who say DMK sweep allow me to laugh first. Party which lost deposit in bye election that too when ADMK is split no chance for them to sweep.Now ADMK is unified they are sure to get some where around 30% of votes and TTV who is to launch the party will get around 15% of votes. Rajnikanth will get around 15% of votes. Others 15%. That leaves DMK with just 25% of votes.Maximum DMK+ will get 25%.when it comes to seats ADMK might around 21, TTV might get 2, Rajni 2 and DMK 14.Also people who talk about DMK sweeping ,let them first understand TN history. DMK is a party which has never won more than 18 seats of its own when it comes to lok sabha elections. It is a party which has won only because of alliances it had in the past. it has won only the 1989 elections without alliance help that too was because of split in ADMK.
+    </p>
+  <h3>Scenario 1:</h3> 
+    <p>
+TTV dinakaran is clear number 3 i think he will over power Rajni to get third place. Current situation
+
+DMK+ 30%
+
+Admk- 25%
+
+TTV 17%
+
+Rajni 10%
+
+others 18%
+
+seat wise prediction is tough however no party will be able to cross 20 on its own</p>
+    <h3>Scenario 2:</h3>
+  <p>
+In case of No Rajni i.e. Rajni may not contest in parliament elections it might favor DMK a little bit.
+
+dmk 35%
+
+Admk 30%
+
+AMMK/TTV- 15%
+
+Others 20%
+
+Seat wise DMK+ might get 20 to 25</p>
+    <h3>Scenario 3:</h3>
+    <p>
+In case of No Rajni and ADMK-BJP alliance result might look like this
+
+Admk-36%
+
+DMK-34
+
+Others-15%
+
+AMMK+-15%
+
+This will favor ADMK and it might be 20 seats for ADMK</p>
+    <center><h2>Share Polls Result On::</h2>
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+        <a href="#" class="fa fa-linkedin"></a></center>
+
+
+</body>
+</html>
